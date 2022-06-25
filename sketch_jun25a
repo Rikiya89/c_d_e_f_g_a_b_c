@@ -1,0 +1,77 @@
+// 音の長さの設定
+int melo = 200;
+
+// ブザーを接続したピン番号
+int pin = 13;
+
+void setup() {
+  // put your setup code here, to run once:
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+  // ド
+  tone(pin, 262, melo);
+  // 音が鳴っている間待機
+  delay(melo);
+
+  // レ
+  tone(pin, 294, melo);
+  delay(melo);
+
+  // ミ
+  tone(pin, 330, melo);
+  delay(melo);
+
+  //ファ
+  tone(pin, 349, melo);
+  delay(melo);
+
+  //ソ
+  tone(pin, 392, melo);
+  delay(melo);
+
+  //ラ
+  tone(pin, 440, melo);
+  delay(melo);
+
+  //シ
+  tone(pin, 494, melo);
+  delay(melo);
+
+  // ド
+  tone(pin, 131, melo);
+  delay(melo);
+
+  //シ
+  tone(pin, 494, melo);
+  delay(melo);
+
+  //ラ
+  tone(pin, 440, melo);
+  delay(melo);
+
+  //ソ
+  tone(pin, 392, melo);
+  delay(melo);
+
+  //ファ
+  tone(pin, 349, melo);
+  delay(melo);
+
+  // ミ
+  tone(pin, 330, melo);
+  delay(melo);
+
+  // レ
+  tone(pin, 294, melo);
+  delay(melo);
+
+  // ド
+  tone(pin, 262, melo);
+  delay(melo);
+
+
+  // 1秒待機
+  delay(3000);
+}
